@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=8 python main.py --batch-size 128 --epoch 50 --lr 5e-4 --output_dir ./train_results/finetune_depth9/train_w_distill/instance_snnet/ --blk_length 9 --init_stitch_mode snnet --init_learngenepool_mode ours --ls_init True
