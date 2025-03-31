@@ -1,0 +1,2 @@
+time.struct_time(tm_year=2023, tm_mon=12, tm_mday=7, tm_hour=23, tm_min=48, tm_sec=30, tm_wday=3, tm_yday=341, tm_isdst=0)
+epoch-100 learning rate-0.01 lr_drop-0.4 epochs_drop-100
