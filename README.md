@@ -72,7 +72,7 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 ## 开始训练！
 
-以下提供一个在Llama2-7B上使用Heur Learngene的样例，更多样例模板可参考+ [examples]( https://arxiv.org/abs/2106.06788)
+以下提供一个在Llama2-7B上使用Heur Learngene的样例，更多样例模板可参考 [examples](https://github.com/ZhenuYang/Yuanmou/tree/main/examples)
 
 ### Clone
 
