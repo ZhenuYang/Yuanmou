@@ -49,9 +49,9 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 
 
-+ ### Fewer GPU days
++ ### 更少的GPU时间
 
-  By employing Heur Learngene and Auto Learngene, the GPU days required for fine-tuning large language models have been reduced by **30%** and **40%** respectively, thereby reducing resource costs.
+ 通过使用 Heur Learngene 和 Auto Learngene，对大型语言模型进行微调所需的 GPU 时间分别减少了 30% 和 40%，从而降低了资源成本。
 
 <p align="center">
   <img src="./sources/fig4.jpg" alt="image4" width="40%"/>
@@ -60,9 +60,9 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 
 
-+ ### Fewer training samples
++ ### 更少的训练样本
 
-  By employing Heur Learngene and Auto Learngene, fine-tuning large language models requires only **60%** and **50%** of the data respectively, further reducing resource costs.
+  通过使用 Heur Learngene 和 Auto Learngene，对大型语言模型进行微调所需的训练数据量分别仅为 60% 和 50%，从而进一步降低了资源成本。
 
 <p align="center">
   <img src="./sources/fig5.jpg" alt="image5" width="40%"/>
@@ -70,9 +70,9 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 
 
-## Get Started
+## 开始训练！
 
-We provide a brief tutorial for YuanMou.
+以下提供一个在Llama2-7B上使用Heur Learngene的样例，更多样例模板可参考examples
 
 ### Clone
 
