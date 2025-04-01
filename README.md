@@ -9,6 +9,7 @@
 ## 项目介绍
 
 YuanMou is an open source **Learngene** toolbox based on PyTorch. **Learngene** is a novel machine learning paradigm, which first condense a larger, well-trained model, termed an *ancestry model*, into a tiny critical part as *learngene*, which contains core and generalizable knowledge from the ancestry model. Subsequently, learngene is expanded to initialize many variable-sized models for different downstream tasks and resource constraints, which are called *descendant models*. 
+YuanMou 是一个基于 PyTorch 的开源 Learngene 工具箱。Learngene 是一种新颖的机器学习范式，其核心思想是首先将一个较大且经过良好训练的模型（称为 祖先模型）浓缩为一个微小但关键的部分，称为 Learngene，其中包含祖先模型的核心且可泛化的知识。随后，Learngene 可以扩展，用于初始化许多不同规模的模型，以适应不同的下游任务和资源限制，这些模型被称为 后代模型。
 
 Currently, YuanMou includes four **Learngene** algorithms as follows.
 
