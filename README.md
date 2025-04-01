@@ -10,21 +10,22 @@
 
 YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具箱。**学习基因** 是一种新颖的机器学习范式，其核心思想是首先将一个较大且经过良好训练的模型（称为 *祖先模型*）浓缩为一个微小但关键的部分，称为 *Learngene*，其中包含祖先模型的核心且可泛化的知识。随后，Learngene 可以扩展，用于初始化许多不同规模的模型，以适应不同的下游任务和资源限制，这些模型被称为 *后代模型*。
 
-目前，YuanMou包括以下7种 **学习基因** 算法.
+目前，YuanMou包括以下5种 **学习基因** 算法.
 
 + [Heur Learngene]( https://arxiv.org/abs/2106.06788): AAAI 2022
 + [Auto Learngene](https://arxiv.org/abs/2305.02279): arXiv prePrint 2023
 + [Learngene Pool](https://arxiv.org/abs/2312.05743): AAAI 2024
 + [TLEG](https://arxiv.org/abs/2312.05614): AAAI 2024
++ [SWS](https://arxiv.org/abs/2404.16897): IJCAI 2024
 
 <p align="center">
   <img src="./sources/fig1.png" alt="image1" width="50%"/>
 </p>
 
 
-## Advantages
+## 项目优势
 
-We employed Heur Learngene and Auto Learngene on the currently well-known large language model [**Llama2-7B**](https://ai.meta.com/llama/) and demonstrated that, with vanilla [LoRa](https://arxiv.org/abs/2106.09685) as the baseline, **Learngene** has the following advantages：
+我们分别在当前广为人知的大型语言模型 [**Llama2-7B**](https://ai.meta.com/llama/) 上应用了Heur Learngene 和Auto Learngene, 并以原始的 [LoRa](https://arxiv.org/abs/2106.09685) 作为基线, 展示了 **学习基因** 具有以下优势：
 
 + ### Better performance
 
