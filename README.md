@@ -74,8 +74,9 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 以下提供一个在Llama2-7B上使用Heur Learngene的样例，更多样例模板可参考 [examples](https://github.com/ZhenuYang/Yuanmou/tree/main/examples)
 
-### Clone
+### 克隆项目
 
+运行以下指令以克隆YuanMou项目并进入项目文件夹
 ```
 git clone https://github.com/Learngene-YuanMou/YuanMou.git
 cd YuanMou
@@ -83,21 +84,19 @@ cd YuanMou
 
 
 
-### Requirements
+### 配置环境
 
-- Python 3.8
-- PyTorch 2.0.1 or higher
-- torchvison 0.15.2 or higher
-- tensorboard
-- numpy
-- yacs
-- tqdm
-
+创建虚拟环境并安装项目所需要的第三方基础库
+```
+conda create -n YuanMou python=3.8
+conda activate YuanMou
+pip install -r requirements.txt
+```
 
 
-### Preparing Datasets
+### 准备数据集
 
-| Dataset name  | Categories | Images     | link                                                         |
+| 数据集        | 种类数      | 图像总数   | 链接                                                         |
 | ------------- | ---------- | ---------- | ------------------------------------------------------------ |
 | CIFAR-100     | 100        | 50,000     | https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz     |
 | Mini-ImageNet | 100        | 60,000     | https://github.com/twitter-research/meta-learning-lstm/tree/master/data/miniImagenet |
