@@ -27,9 +27,9 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 我们分别在当前广为人知的大型语言模型 [**Llama2-7B**](https://ai.meta.com/llama/) 上应用了Heur Learngene 和Auto Learngene, 并以原始的 [LoRa](https://arxiv.org/abs/2106.09685) 作为基线, 展示了 **学习基因** 具有以下优势：
 
-+ ### Better performance
++ ### 更好的模型表现
 
-  By employing Heur Learngene and Auto Learngene, fine-tuning the same number of epochs on a large language model leads to improved performance.
+  通过采用Heur Learngene 和Auto Learngene，在大型语言模型上进行相同数量的训练轮次微调，可以带来性能提升。
 
 <p align="center">
   <img src="./sources/fig2.jpg" alt="image2" width="40%"/>
@@ -38,9 +38,9 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 
 
-+ ### Faster convergence
++ ### 更快的收敛速度
 
-  By employing Heur Learngene and Auto Learngene, the number of epochs required for large language models to converge has been reduced by **30%** and **40%** respectively.
+ 通过采用Heur Learngene 和Auto Learngene，大型语言模型收敛所需的训练轮次分别减少了 **30%** 和 **40%** 。.
 
 <p align="center">
   <img src="./sources/fig3.jpg" alt="image3" width="40%"/>
