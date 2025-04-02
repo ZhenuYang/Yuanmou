@@ -72,7 +72,7 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 
 ## 开始训练！
 
-以下提供一个在Llama2-7B上使用Heur Learngene的样例，更多样例模板可参考 [examples](https://github.com/ZhenuYang/Yuanmou/tree/main/examples)
+以下提供一个在Llama2-7B上使Learngene Pool的样例，更多样例模板可参考 [examples](https://github.com/ZhenuYang/Yuanmou/tree/main/examples)
 
 ### 克隆项目
 
@@ -104,9 +104,9 @@ pip install -r requirements.txt
 
 
 
-#### Downloading Datasets
+#### 下载数据集
 
-You can download dataset to the data directory from the link above or from paddle link. We here take `CIFAR-100`as an example.
+您可以从上方的链接或 Paddle 链接将数据集下载到数据目录中。这里我们以 CIFAR-100 为例。
 
 ```python
 cd utils/datasets
@@ -115,7 +115,7 @@ wget https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
 
 
 
-### Examples
+### Learngene Pool使用样例
 
 Take Learngene Pool as an example. Note that you need to modify the `output_dir` and `data_path` in the `.yaml`.
 
