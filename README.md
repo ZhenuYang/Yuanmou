@@ -115,13 +115,42 @@ wget https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
 
 
 
-### Learngene Pool使用样例
+### 项目使用
 
-Take Learngene Pool as an example. Note that you need to modify the `output_dir` and `data_path` in the `.yaml`.
+您可以运行以下命令行代码以使用您需要的learngene method。
 
+```python
+python main.py \
+    --method 'learngene-pool'
+    --base_model 'decapoda-research/llama-7b-hf' \
+    --data_path 'datasets/CIFAR-100' \
+    --output_dir './Yuanmou' \
+```
 
+或者若您需按个人需求调整相关参数，以下是全部可调整的命令行参数
 
-#### Train and extract learngene
+```python
+python main.py \
+    --method 'learngene-pool'
+    --used_auxmodel 'conf-aux-base9'
+    --base_model 'decapoda-research/llama-7b-hf' \
+    --data_path 'yahma/alpaca-cleaned' \
+    --output_dir './Yuanmou' \
+    --batch_size 128 \
+    --micro_batch_size 4 \
+    --num_epochs 3 \
+    --learning_rate 1e-4 \
+    --cutoff_len 512 \
+    --val_set_size 2000 \
+    --num_heads 3 \
+    --head_dim 64 \
+    --num_blocks 12 \
+    --throughput false \
+    --train_on_inputs \
+    --group_by_length
+```
+
+#### 提取学习基因
 
 If we want to build the learngene pool with 18 instances, execute the following commands.
 
