@@ -152,65 +152,51 @@ python main.py \
 
 #### 提取学习基因
 
-If we want to build the learngene pool with 18 instances, execute the following commands.
-
-The learnegene extracted from the following line of code is deit_base9_patch16_224:
+如果您希望使用 18 个实例 构建 Learngene Pool，请执行以下命令。
+从以下代码行中提取的 Learngene 是 deit_base9_patch16_224。
 
 ```python
 cd learngene_methods/learngene_pool
 python distill.py --config configs/conf_aux_base9.yaml
 ```
 
-The default parameters of the experiment are shown in `configs/conf_aux_base9.yaml`. 
-
-The learnegene extracted from the following line of code is deit_tiny9_patch16_224:
-
-```python
-cd learngene_methods/learngene_pool
-python distill.py --config configs/conf_aux_tiny9.yaml
-```
-
-The default parameters of the experiment are shown in `configs/conf_aux_tiny9.yaml`. 
+实验的默认参数显示在 'configs/conf_aux_base9.yaml' 中。
 
 
 
-#### Build the learngene pool
+#### 创建 learngene pool
 
-In this section, we can construct the learngene pool from the extracted learngenes.
+在这部分，我们可以从提取的 Learngene 构造 Learngene Pool。
 
 ```python
 cd learngene_methods/learngene_pool
 python main.py --config configs/conf_build.yaml
 ```
 
-The default parameters of the experiment are shown in `configs/conf_build.yaml`.
+实验的默认参数显示在 'configs/conf_build.yaml' 中。
 
 
 
-#### Initialize with learngene and test
+#### 使用 Learngene 初始化并进行测试。
 
-In this section, we use learngene to initialize the descendant network and test the performence.
+在这部分，我们使用 Learngene 初始化后代网络并测试其性能。
 
 ```python
 cd learngene_methods/learngene_pool
 python main.py --config configs/conf_ini.yaml
 ```
 
-The default parameters of the experiment are shown in `configs/conf_ini.yaml`.
+实验的默认参数显示在 configs/conf_ini.yaml 中。
 
-To build learngene pool and descendant models of different sizes, you only need to modify some hyper-parameters.
-
-
-
-## License
-
-This project is released under the [MIT license](https://github.com/Learngene-YuanMou/YuanMou/blob/master/LICENSE).
+要构建不同大小的 Learngene Pool 和后代模型，您只需修改一些超参数。
 
 
 
-## Citations
 
-If you use this toolbox in your research, please cite these papers.
+
+## 引用
+
+如果您希望在您的研究中引用我们的工具箱，请添加以下内容
 
 <a name="HeurLearngene"></a>
 
