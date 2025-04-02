@@ -246,19 +246,9 @@ python main.py --config configs/conf_ini.yaml
 
 
 
-## Contacts
+## 联系
 
-If you have any questions about our work, please do not hesitate to contact us by emails.
+如果您在使用该项目时遇见无法解决的问题，请发邮件.
 
-Wenxuan Zhu: zhuwx@seu.edu.cn
+213233931@seu.edu.cn
 
-Yuankun Zu: zyk0418@seu.edu.cn
-
-
-
-## Acknowledgements
-
-Our project references the codes in the following repos.
-
-+ [Heur Learngene](https://github.com/BruceQFWang/learngene)
-+ [Deit](https://github.com/facebookresearch/deit)
