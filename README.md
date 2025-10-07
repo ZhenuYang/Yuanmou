@@ -143,16 +143,6 @@ chmod +x ./scripts/learngene
 ```
 最终适配好的模型将保存在 outputs/tleg_vit/descendant_deit_tiny_L6。
 
-### 3. `scripts/` 目录下的内容
-
-这里除了核心的 `learngene` 工具外，我们还会提供一系列模板化的 `.sh` 脚本，方便用户一键运行完整的实验流程。
-
-#### `scripts/learngene` (不变，同上一个回答)
-... (保持原样)
-
----
-
-#### `scripts/README.md` (对 `scripts` 目录的说明)
 
 
 
