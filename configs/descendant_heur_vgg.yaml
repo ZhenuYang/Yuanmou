@@ -1,0 +1,26 @@
+METHOD_FAMILY: 'heur_vgg'
+OUTPUT_DIR: './outputs/heur_vgg/descendant_model'
+SEED: 1
+DEVICE: 'cuda'
+
+DATASET:
+  NAME: 'cifar100'
+  # !!! 注意: 请将 PATH 修改为您自己的 inheritabledataset 路径 !!!
+  PATH: 'D:/stu_res/reconstruct/YuanMou/learngene/datasets/exp_data/data_cifar100/2023-12-08_07_41_26/inheritabledataset'
+  NUM_WORKS_TT: 5
+  NUM_IMGS_PER_CAT_TRAIN: 20
+
+# 基因相关配置
+GENE:
+  # !!! 注意: ANCESTOR_MODEL_PATH 应指向祖先模型训练的输出目录 !!!
+  ANCESTOR_MODEL_PATH: './outputs/heur_vgg/ancestor_model'
+
+MODEL:
+  TYPE: 'vgg_compression_one'
+  NUM_CLASS: 5
+
+TRAIN:
+  EPOCHS: 100
+  BATCH_SIZE: 32
+  LR: 0.01
+  MOMENTUM: 0.9
