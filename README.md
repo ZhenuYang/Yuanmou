@@ -83,7 +83,7 @@ YuanMou 是一个基于 PyTorch 的开源 **学习基因（learngene）** 工具
 1.  克隆本仓库:
     ```bash
     git clone https://github.com/your-username/learngene-toolkit.git
-    cd learngene-toolkit
+    cd Yuanmou
     ```
 
 2.  (推荐) 创建并激活conda虚拟环境:
